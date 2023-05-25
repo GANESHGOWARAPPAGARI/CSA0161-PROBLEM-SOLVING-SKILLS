@@ -1,13 +1,12 @@
-//sequence of numbers with difference two
+ #include <stdio.h>
 
-#include<stdio.h>
-int main()
-{
-	int n;
-	n=15;
-	printf("sequence of numbers with difference 2:")
-	for(int i=0;i<n;i=i+2)
-	{
-		printf("%d\n",i);
-	}
+int main() {
+    int i;
+
+    printf("Natural numbers up to 50 with a difference of 2: ");
+    for (i = 1; i <= 50; i += 2) {
+        printf("%d ", i);
+    }
+
+    return 0; 
 }
